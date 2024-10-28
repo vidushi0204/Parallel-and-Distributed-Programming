@@ -88,6 +88,3 @@ The objective of this assignment is to generate and solve a 64x64 perfect maze u
 - **MPI Broadcast**: Used to redistribute frontiers during the DFS-based maze solving.
 - **MPI Barrier**: Used to synchronize all processors at critical points in the algorithm.
 
-## Conclusion
-
-This project demonstrates the use of MPI for parallel maze generation and solving. The BFS-based maze generation is faster and simpler, while the Kruskal-based maze results in a more complex maze structure. DFS proves to be more efficient for solving the maze, requiring fewer cell visits than Dijkstra’s algorithm. Through parallelization, significant performance improvements were achieved, especially on larger mazes.
