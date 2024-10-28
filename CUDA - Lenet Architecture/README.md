@@ -1,4 +1,5 @@
-LeNet-5 forward propagation using CUDA (Parallel Programming)
+# LeNet-5 forward propagation using CUDA (Parallel Programming)
+
 ## Objective
 
 The objective of this assignment is to implement an image processing library for recognizing MNIST digits by constructing a neural network architecture (LeNet-5) and optimizing its performance using CUDA. The assignment is divided into four subtasks:
